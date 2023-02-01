@@ -98,8 +98,8 @@
     <p class="question1">Solve for x: <br>
     x(2x + 1) = 0</p>
         
-    <input type="number" class="input1">
-    <input type="number" class="input2">
+    <input type="" class="input1">
+    <input type="" class="input2">
    <button class="answer1">Check</button>
    
    <p class="label-score">Chances: <span class="chances">3</span></p>
@@ -372,8 +372,8 @@
     });
 
     submit1.addEventListener('click', ()=>{
-    const input1 = Number(document.querySelector('.input1').value);
-      const input2 = Number(document.querySelector('.input2').value); 
+    const input1 = String(document.querySelector('.input1').value);
+      const input2 = String(document.querySelector('.input2').value); 
        
         if(input1 === answer1 && input2 === answer2 ){
             displayMessage('🎉Congratulations!, your answer is correct');
